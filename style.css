@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+
+html {
+    box-sizing: border-box;
+    font-size: 13px;
+}
+
+*, 
+*::before, 
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.container {
+    /* outline: 1px solid #000; */
+    display: flex;
+    background-color: #fff;
+    width: 730px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+
+.drawer {
+    margin: 0;
+    background: no-repeat left/375px url(./images/drawers.jpg);
+    width: 900px;
+    height: 300px;
+    border-radius: 10px 0 0 10px;
+}
+
+article {
+    /* outline: 1px solid #000; */
+    padding: 25px 38px;
+}
+
+p {
+    color: hsl(214, 17%, 51%);
+}
+
+.profile {
+    margin: 0;
+    /* outline: 1px solid #000; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile > button {
+    border-radius: 50%;
+    border: hidden;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.profile-photo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.profile-photo > img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+p > .firstname {
+    font-weight: 700;
+    color: hsl(217, 19%, 35%);
+}
+
+h1 {
+    color: hsl(217, 19%, 35%);
+}
+
+.social-media {
+    display: none;
+    position: absolute;
+    bottom: 428px;
+    right: 515px;
+    border-radius: 7px;
+    background-color: hsl(217, 19%, 35%);
+    width: 220px;
+    height: 50px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.social-share {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 10px;
+}
+
+.social-share > span {
+    color: #fff;
+    letter-spacing: .3rem;
+    cursor: pointer;
+}
+
+
+.social-share > img {
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+}
+
+.diamond {
+    position: absolute;
+    width: 0;
+    height: 0;
+    top: 50px;
+    right: 95px;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 15px solid hsl(217, 19%, 35%);
+}
+
+.btn:hover {
+    background-color: hsl(217, 19%, 35%);
+    
+}
+
+
+@media only screen and (max-width: 750px) {
+    
+}
+
+
+
+ 
+
+
+
+
+
+
+
