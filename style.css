@@ -90,8 +90,8 @@ h1 {
 .social-media {
     display: none;
     position: absolute;
-    bottom: 428px;
-    right: 515px;
+    bottom: 60px;
+    right: -95px;
     border-radius: 7px;
     background-color: hsl(217, 19%, 35%);
     width: 220px;
@@ -131,14 +131,43 @@ h1 {
     border-top: 15px solid hsl(217, 19%, 35%);
 }
 
-.btn:hover {
+.btn {
+    position: relative;
+}
+
+.hover {
     background-color: hsl(217, 19%, 35%);
-    
 }
 
 
 @media only screen and (max-width: 750px) {
-    
+
+    body {
+        display: flex;
+        max-width: 100vw;
+        min-height: 100vh;
+    }
+    .container {
+        margin: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 390px;
+        height: 550px;
+    }
+
+    .drawer {
+        margin: 0;
+        background:no-repeat center/100% url(./images/drawers.jpg);
+        /* background-position: center; */
+        width: 390px;
+        border-radius: 10px 10px 0 0;
+    }
+
+    .para {
+        font-size: 1.26rem;
+    }
 }
 
 
